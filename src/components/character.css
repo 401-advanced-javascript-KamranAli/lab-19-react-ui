@@ -1,0 +1,15 @@
+.Main {
+  background-color: #6A6C6E;
+  width: 300px;
+  justify-content: center;
+}
+
+.Name {
+  text-align: center;
+  color: orange;
+}
+
+.Species {
+  text-align: center;
+  color: orange;
+}

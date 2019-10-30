@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './character.css';
 
 export default function Character({ img, name, species }) {
   return (
-    <dl>
+    <dl className={styles.Main}>
       <img src={img} />
 
       <dt>Name</dt>
-      <dd>{name}</dd>
+      <dd className={styles.Species}>{name}</dd>
 
       <dt>Species</dt>
-      <dd>{species}</dd>
+      <dd className={styles.Species}>{species}</dd>
     </dl>
   );
 }
